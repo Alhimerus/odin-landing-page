@@ -58,11 +58,11 @@ a {
 
 .hero .image {
   color: white;
-  padding: 80px 200px;
+  padding: 100px 200px;
   border: 5px solid white;
   background-color: #09282a;
   flex: 0 0 auto;
-  /* border-radius: 20px; */
+  align-self: center;
 }
 
 .logo,
@@ -85,4 +85,44 @@ a {
 .secondary {
   color: #E5E7EB;
   font-size: 18px;
+}
+
+.item .image {
+  width: 160px;
+  height: 160px;
+  border-radius: 15px;
+  border: 4px solid #3882F6;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 320px 50px;
+}
+
+.container {
+  display: flex;
+  column-gap: 40px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 8px;
+  margin-top: 16px;
+}
+
+.item .text {
+  text-align: center;
+  font-size: 18px;
+  color: rgb(75, 75, 75);
+  width: 160px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1F2937;
 }
