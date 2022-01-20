@@ -1,2 +1,2 @@
 # odin-landing-page
-Landing page repository
+In this project I will use HTML and CSS to create a landing page from a provided design.
