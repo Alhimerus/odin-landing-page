@@ -1,18 +1,23 @@
 body {
   margin: 0;
   font-family: Roboto, Arial, Helvetica, sans-serif;
-}
-
-.page-top {
-  background-color: #1F2937;
-  padding: 24px 256px;
   display: flex;
   flex-direction: column;
 }
 
+.page-top {
+  background-color: #1F2937;
+  padding: 24px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .hero {
