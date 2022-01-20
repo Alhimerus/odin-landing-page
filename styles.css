@@ -8,9 +8,16 @@ body {
   justify-content: space-between;
 }
 
+.hero {
+  padding: 128px 0;
+  display: flex;
+}
+
 .page-top {
   background-color: #1F2937;
   padding: 24px 256px;
+  display: flex;
+  flex-direction: column;
 }
 
 ul {
@@ -21,14 +28,26 @@ ul {
   column-gap: 24px;
 }
 
-a {
+.header a {
   text-decoration: none;
   color: #E5E7EB;
   font-size: 18px;
 }
 
 .logo {
-  color: #F9FAF8;
   font-weight: 700;
   font-size: 24px;
+}
+
+.logo, .main {
+  color: #F9FAF8;
+}
+
+a, .secondary {
+  color: #E5E7EB;
+}
+
+.hero .image {
+  color: white;
+  padding: 32px;
 }
