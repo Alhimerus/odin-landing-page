@@ -3,6 +3,7 @@ body {
   font-family: Roboto, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .page-top {
@@ -157,4 +158,35 @@ p {
   font-size: 24px;
   font-weight: 600;
   align-self: flex-end;
+}
+
+.CTA {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.CTA .container {
+  margin: 0;
+  padding: 40px 90px;
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.CTA .main {
+  font-size: 20px;
+}
+
+.CTA .text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0px;
+}
+
+.CTA button {
+  border-color: white;
 }
