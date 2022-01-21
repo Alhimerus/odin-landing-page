@@ -25,6 +25,7 @@ body {
   display: flex;
   justify-content: space-between;
   column-gap: 40px;
+  max-width: 1030px;
 }
 
 .text {
@@ -189,4 +190,14 @@ p {
 
 .CTA button {
   border-color: white;
+}
+
+.page-bottom {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  font-size: 18px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
